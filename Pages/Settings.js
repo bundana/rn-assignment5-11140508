@@ -1,8 +1,8 @@
 import React from "react";
 import { View, StyleSheet, Text, Switch } from "react-native";
 import { AntDesign } from "@expo/vector-icons";
-import { useTheme } from "../ThemeContext";
-import { lightTheme, darkTheme } from "../themes";
+import { useTheme } from "../Configurations/ThemeContext";
+import { lightTheme, darkTheme } from "../Configurations/themes";
 
 const Settings = ({ navigation }) => {
   const { isDarkMode, toggleTheme } = useTheme();

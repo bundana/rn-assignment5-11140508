@@ -1,8 +1,8 @@
 import React from "react";
 import { StatusBar } from "expo-status-bar";
 import { TouchableOpacity, StyleSheet, Text, View, Image } from "react-native";
-import { useTheme } from "../ThemeContext";
-import { lightTheme, darkTheme } from "../themes";
+import { useTheme } from "../Configurations/ThemeContext";
+import { lightTheme, darkTheme } from "../Configurations/themes";
 
 const Home = ({ navigation }) => {
   const { isDarkMode } = useTheme();
